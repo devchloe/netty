@@ -1,11 +1,21 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Netty](README.md)
 * [NIO](nio/README.md)
   * [Channel](nio/channel.md)
   * [ByteBuffer](nio/bytebuffer.md)
   * [Selector](nio/selector.md)
 * [Netty](netty/README.md)
-  * [EventLoop](netty/eventloop.md)
+  * [Architecture](netty/architecture.md)
+  * [Socket vs Channel](netty/blocking.md)
   * [Threading Model](netty/threading-model.md)
+  * [Channel](netty/channel.md)
+  * [ServerBootstrap](netty/serverbootstrap.md)
+  * [Bootstrap](netty/bootstrap.md)
+  * [Handler](netty/handler.md)
+  * [EventLoop](netty/eventloop.md)
+* [스레드](undefined.md)
+* [메모](undefined-1.md)
+* [메모2](2.md)
+* [Untitled](untitled.md)
 
