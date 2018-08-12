@@ -14,6 +14,7 @@
     * [ChannelPipeline & ChannelHandler](netty/channel/handler.md)
   * [Bootstrap](netty/bootstrap-1/README.md)
     * [Bootstrap & ServerBootstrap](netty/bootstrap-1/bootstrap.md)
+* [Netty 공통 API](netty-api.md)
 * [스레드](undefined.md)
 * [메모](undefined-1.md)
 * [메모2](2.md)
