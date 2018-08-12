@@ -6,6 +6,7 @@
   * ChannelHandler 체인 관리
   * 구성된 체인에 따라 인바운드, 아웃바운드 이벤트, 데이를 전파하기 위한 API 제공
 * ChannelHandler
+  * 어플리케이션 논리 컨테이
   * 인바운드, 아웃바운드 이벤트가 발생 했을 때 이벤트 종류에 따라 Handler 메서드가 트리거
   * 커스텀 Handler가 ChannelPipeline에 설치되는 시점
     * Channel이 생성되면 자동으로 ChannelPipeline 할당
@@ -29,6 +30,14 @@
     * ChannelInboundHandler, ChannelOutboundHandler
     * ChannelXXXHandler 인터페이스는 상위 Handler 인터페이스를 확장 
     * ChannelXXXHandlerAdapter 클래스는 ChannelXXXHandler 인터페이스와 ChanelHandlerAdaper를 확장해서 커스텀 ChannelXXXHandler를 완성함
+  * ChannelHandler 용도
+    * 데이터 포맷 변환
+    * 예외에 대한 알림 제공
+    * 채널 활성화 또는 비활성화에 대한 알림 제공
+    * 채널을 이벤트루프에 등록할 대 또는 등록 해제할 때 알림 제공
+    * 사용자 정의 이벤트에 대한 알림 제공
+  * ChannelHandler 인스턴스를 필요에 따라 추가하거나 제거해서 ChannelPipeline을 바로바로 변경할 수 있다.
+    * 예를 들어 특정 프로토콜이 요청될 때마다 요청된 프로토콜을 처리하는  ChannelHandler\(SslHandler\)를 ChannelPipeline에 삽입시키는 방법 \(STARTTLS 프로토콜 지\)
 * ChannelHandlerContext
   * ChannelHandler와 ChannelPipeline 간 바인딩 정보
   * ChannelHandler를 ChannelPipeline에 추가할 때 ChannelHandlerContext 하나가 할당됨

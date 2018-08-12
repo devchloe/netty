@@ -18,5 +18,6 @@
 * [스레드](undefined.md)
 * [메모](undefined-1.md)
 * [메모2](2.md)
-* [Untitled](untitled.md)
+* [Channel 인터페이스](untitled.md)
+* [ByteBuf](bytebuf.md)
 

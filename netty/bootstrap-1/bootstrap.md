@@ -20,6 +20,7 @@
       * 두번째 EventLoopGroup \(Worker\)
         * 다른 하나는 서버가 수락한 연결마다 요청을 처리하기 위해 생성된 모든 Channel을 포함
         * 연결이 수락되면 두번째 EventLoopGroup이 생성된 Channel에 EventLoop를 할당함
+      * 참고 [https://groups.google.com/forum/\#!topic/netty-ko/-liUw3162kI](https://groups.google.com/forum/#!topic/netty-ko/-liUw3162kI)
   * Bootstrap
     * 클라이언트는 원격 피어로 연결을 수행해야 함
       * Bootstrap.connect\(remoteaddress\)
