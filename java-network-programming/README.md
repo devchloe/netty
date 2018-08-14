@@ -5,11 +5,3 @@
 이것 저것 찾아본 내용을 정리한 페이지 입니다.
 {% endhint %}
 
-
-
-{% page-ref page="network.md" %}
-
-* TCP/IP, IP 네트워크 
-* TCP, UDP
-* 방화벽, 프록시 서버인터넷 
-
