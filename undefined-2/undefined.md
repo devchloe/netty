@@ -1,3 +1,9 @@
+---
+description: >-
+  이 페이지는 Elliotte Harold가 쓴 Java Network Programming을 공부하면서 이것저것 찾아보고 개념을 정리한
+  내용입니다.
+---
+
 # 네트워크
 
 ### 네트워크
