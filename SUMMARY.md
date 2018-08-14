@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Netty](README.md)
+* [클로이 공부노트](README.md)
 * [NIO](nio/README.md)
   * [Channel](nio/channel.md)
   * [ByteBuffer](nio/bytebuffer.md)
