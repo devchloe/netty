@@ -10,11 +10,11 @@
   * 이벤트 그룹과 채널 유형만 바꾸면 다른 비즈니스 로직에 영향을 주지 않음
   * 즉 네트워크 전송 레이어를 비즈니스 로직으로부터 분리
 
-{% page-ref page="netty/blocking.md" %}
+{% page-ref page="blocking.md" %}
 
-{% page-ref page="nio/channel.md" %}
+{% page-ref page="../nio/channel.md" %}
 
-{% page-ref page="nio/selector.md" %}
+{% page-ref page="../nio/selector.md" %}
 
 
 

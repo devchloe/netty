@@ -20,7 +20,7 @@
 
 * 힙버퍼
 * 
-{% page-ref page="nio/bytebuffer.md" %}
+{% page-ref page="../nio/bytebuffer.md" %}
 
 
 
