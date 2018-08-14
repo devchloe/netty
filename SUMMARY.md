@@ -5,7 +5,7 @@
   * [Channel](nio/channel.md)
   * [ByteBuffer](nio/bytebuffer.md)
   * [Selector](nio/selector.md)
-* [자바 네트워크 프로그래밍](java-network-programming/README.md)
+* [Java Network Programming](java-network-programming/README.md)
   * [네트워크](java-network-programming/network.md)
 * [Netty](netty/README.md)
   * [Architecture](netty/architecture.md)
